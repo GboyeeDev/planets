@@ -16,7 +16,7 @@ fs.createReadStream('kepler_data.csv')
     // pipe is the destination of my kepler_data
     .pipe(parse({
         comment: '#',
-        column: true,
+        columns: true,
     }))
     .on('data', (data) => {
         if (isHabitablePlanets(data)) {
