@@ -36,5 +36,7 @@ fs.createReadStream('kepler_data.csv')
 
 
 
-
+git remote add origin https://github.com/GboyeeDev/emocom.git
+git branch -M main
+git push -u origin main
 
